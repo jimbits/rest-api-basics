@@ -1,0 +1,49 @@
+.query-filters{
+ 
+    margin: 0 auto 4rem; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+ 
+
+
+.query-control{
+    order:2;
+}
+.query-control label{
+    margin:0;
+    font-size: var(--font-size-4)
+}
+.query-control input{
+    width:100%;
+    border:none;
+    padding: 1rem;
+    box-shadow: var(--shadow-4);
+}
+
+.query-options{
+    order:1;
+}
+.query-option{
+    
+    span{
+        display:block;
+        font-size:var(--font-size-0);
+        color: var(--indigo-2);
+    }
+}
+.query-button{
+    display:block;
+    width:100%;
+    background-color: var(--indigo-5);
+    color: var(--indigo-1);
+    padding: var(--size-2) var(--size-4);
+    border:none;
+    border-radius: 3px;
+    box-shadow: var(--shadow-4);
+    font-size:var(--font-size-4);
+    margin: 1rem 0;
+}
+ 

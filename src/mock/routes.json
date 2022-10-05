@@ -1,0 +1,7 @@
+{
+  "/developers/list": "/developers",
+  "/developers/get/:uid":"/developers/:uid",
+  "/developers/experience/:experience":"/developers?experience=:experience"
+ 
+  
+}

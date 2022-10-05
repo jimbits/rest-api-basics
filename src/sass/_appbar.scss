@@ -1,0 +1,55 @@
+.appbar{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    gap: var(--size-2);
+    align-items: center;
+     padding: var(--size-3) var(--size-6);;
+     box-shadow: var(--shadow-3);
+     z-index: 4;
+
+     figure{
+        display:flex;
+        align-items: center;
+        gap: var(--size-1);
+     }
+  
+}
+   
+   .appbar h2{
+    font-weight: 600;
+    color: var(--gray-7);
+    font-size:var(--font-size-1)
+   }
+   
+  
+   .appbar svg{
+    height: 1.5rem;
+    max-height: 96px;
+    fill:var(--gray-7);
+    stroke:var(--gray-7);
+   }
+   .appbar a{
+     text-decoration: none;
+     color:#495057;
+
+   }
+
+   .pages{
+      margin-left: auto;
+      margin-right:auto;
+   }
+   .pages, .github{
+      display:flex;
+      gap:3rem;
+      li{
+         font-weight: 600;
+      }
+   }
+   .github{
+      justify-content: flex-end;
+      width:160px;
+      text-align: right;
+   
+      gap:0.25rem;
+   }

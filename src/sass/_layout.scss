@@ -1,0 +1,32 @@
+
+
+.developers{
+   min-height: 100vh;
+ 
+}
+
+.developer-filters{ 
+    display:none;
+}
+
+.developer-results{
+    background-color:#f8fafc;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page-header{
+    text-align: center;
+    padding: 4rem 0;
+    color:#1e293b;
+    h1{
+        font-size:4rem;
+        font-weight: bold;
+        line-height:4rem;
+    }
+    p{
+        font-size:1.25rem;
+        color:#475569;
+    }
+}
+

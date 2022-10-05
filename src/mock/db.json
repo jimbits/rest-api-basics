@@ -1,0 +1,123 @@
+{
+  "developers":[{
+    "id": "954e37bf",
+    "firstName": "Horatia",
+    "lastName": "Frame",
+    "email": "hframe0@seattletimes.com",
+    "avatar": "https://avatars.dicebear.com/api/big-smile/horatiaframe.svg",
+    "phoneNumber": "664-216-7336",
+    "experience": 4,
+    "type": "full stack developer",
+    "status": false
+  }, {
+    "id": "e2a94cf9",
+    "firstName": "Wheeler",
+    "lastName": "Craythorne",
+    "email": "wcraythorne1@twitter.com",
+    "avatar": "https://avatars.dicebear.com/api/open-peeps/wheelercraythorne.svg",
+    "phoneNumber": "145-858-4100",
+    "experience": 8,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "be2ce852",
+    "firstName": "Clea",
+    "lastName": "Harral",
+    "email": "charral2@npr.org",
+    "avatar": "https://avatars.dicebear.com/api/avataars/cleaharral.svg",
+    "phoneNumber": "499-767-0278",
+    "experience": 4,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "717bff9d",
+    "firstName": "Leonora",
+    "lastName": "Schops",
+    "email": "lschops3@java.com",
+    "avatar": "https://avatars.dicebear.com/api/micah/leonoraschops.svg",
+    "phoneNumber": "223-987-5374",
+    "experience": 6,
+    "type": "full stack developer",
+    "status": true
+  }, {
+    "id": "93d9fc88",
+    "firstName": "Loretta",
+    "lastName": "Mudge",
+    "email": "lmudge4@omniture.com",
+    "avatar": "https://avatars.dicebear.com/api/open-peeps/lorettamudge.svg",
+    "phoneNumber": "646-624-5118",
+    "experience": 2,
+    "type": "front end developer",
+    "status": true
+  }, {
+    "id": "42cc2b57",
+    "firstName": "Larina",
+    "lastName": "Eveling",
+    "email": "leveling5@netlog.com",
+    "avatar": "https://avatars.dicebear.com/api/micah/larinaeveling.svg",
+    "phoneNumber": "857-621-8367",
+    "experience": 1,
+    "type": "full stack developer",
+    "status": false
+  }, {
+    "id": "cdb2dc35",
+    "firstName": "Milka",
+    "lastName": "Bagehot",
+    "email": "mbagehot6@bing.com",
+    "avatar": "https://avatars.dicebear.com/api/avataars/milkabagehot.svg",
+    "phoneNumber": "820-204-7146",
+    "experience": 8,
+    "type": "front end developer",
+    "status": true
+  }, {
+    "id": "7b73aeb7",
+    "firstName": "Fulton",
+    "lastName": "Swane",
+    "email": "fswane7@ftc.gov",
+    "avatar": "https://avatars.dicebear.com/api/adventurer/fultonswane.svg",
+    "phoneNumber": "808-523-1459",
+    "experience": 4,
+    "type": "full stack developer",
+    "status": false
+  }, {
+    "id": "5a575346",
+    "firstName": "Eolande",
+    "lastName": "Jizhaki",
+    "email": "ejizhaki8@sogou.com",
+    "avatar": "https://avatars.dicebear.com/api/adventurer/eolandejizhaki.svg",
+    "phoneNumber": "555-688-2407",
+    "experience": 5,
+    "type": "front end developer",
+    "status": false
+  }, {
+    "id": "169265d1",
+    "firstName": "Aubert",
+    "lastName": "Izen",
+    "email": "aizen9@apache.org",
+    "avatar": "https://avatars.dicebear.com/api/big-ears/aubertizen.svg",
+    "phoneNumber": "413-644-0688",
+    "experience": 2,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "95468d92",
+    "firstName": "Marjie",
+    "lastName": "Fawdry",
+    "email": "mfawdrya@wikipedia.org",
+    "avatar": "https://avatars.dicebear.com/api/open-peeps/marjiefawdry.svg",
+    "phoneNumber": "863-460-1325",
+    "experience": 6,
+    "type": "full stack developer",
+    "status": false
+  }, {
+    "id": "4404a6c8",
+    "firstName": "Ambrosio",
+    "lastName": "Marfe",
+    "email": "amarfeb@cbslocal.com",
+    "avatar": "https://avatars.dicebear.com/api/big-ears/ambrosiomarfe.svg",
+    "phoneNumber": "195-264-1630",
+    "experience": 2,
+    "type": "front end developer",
+    "status": false
+  }]
+}

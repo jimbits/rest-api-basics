@@ -1,0 +1,117 @@
+.add-new-developer{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:5rem;
+ 
+}
+
+.new-developer-form{
+    width:380px;
+}
+
+ 
+
+ 
+ 
+ 
+
+.new-developer-form {
+    padding: 2rem;
+    border-radius: 4px;
+  background-color: #0f172a;
+  color:#e5e5e5;
+  h3{
+    text-align: center;
+    font-size:var(--font-size-6);
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin-bottom: var(--size-8)
+  }
+}
+// Form Control Defaults
+.control{
+    margin-bottom: 1.25rem;
+}
+.control input{
+    background-color: #2d394a;
+    border:none;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px #f9fafb6d;
+    width:100%;
+    color:#f9fafb;
+    padding:var(--size-1) var(--size-2);
+  
+}
+.control label, .radio-control label, .what-type-of-developer h2 {
+    font-size: 13px;
+    color:#f9fafb;
+}
+.control button{
+    background-color:#2563eb;  
+    color:#e5e5e5;
+    font-size:1.25rem;
+    margin: 3rem 0 2rem;
+}
+.control button:last-of-type{
+    background-color: #38bdf8;
+}
+.control input::placeholder{
+    color:#9a9c9d;
+    font-size: 14px;
+     
+}
+
+// control layouts
+.double-control{
+    display:flex;
+    gap:1rem;
+}
+.double-control-single-line{
+    display:inline-flex;
+    gap:2rem;
+}
+
+// uid and experience
+.uid:first-of-type{
+    width: 90px;
+    font-size:14px;
+ 
+}
+.experience:first-of-type{
+    width: 46px;
+    font-size:14px;
+   
+}
+
+// what type of developer
+.what-type-of-developer{
+    margin: 2rem 0;
+    text-align: center;
+    h2{
+        margin-bottom:0.25rem;
+    }
+}
+.developer-type{
+    display:flex;
+    justify-content: space-evenly;
+    
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px #f9fafb6d;
+    background-color: #2d394a;
+    padding:0.75rem 0;
+   
+}
+.radio-control {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:0.25rem;
+
+}
+.radio-control label{
+    font-size: 12px;
+}
+ 
+ 

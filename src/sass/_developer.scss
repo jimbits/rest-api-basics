@@ -1,105 +1,147 @@
-.developer-list{
-    max-width: 1200px;
-    margin: 0 auto;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap:1.5rem;
+.developer-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.developer {
+  box-shadow: var(--shadow-6);
+  border-radius: 6px;
+  width: 320px;
+
+}
+.editor-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem;
+
+  svg {
+    border-radius: 50%;
+    padding: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+   
+  }
  
 }
-.developer{     
-    box-shadow: var(--shadow-4);  
-    height: inherit;
+.developer header {
+  text-align: center;
+  padding: 2rem 0 1rem;
+ 
+
+  h2 {
+    font-size: 28px;
+    letter-spacing: -1px;
+    font-weight: var(--font-weight-7);
+     margin-bottom: -2px;
+     margin-top: 1rem;
+ 
+  }
+ 
 }
 
-.remove-dev{
+
+.avatar {
+  img {
+    aspect-ratio: 1/1;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: var(--pink-2);
+    box-shadow: 0 0 0px 2px var(--pink-9);
+  }
+}
+
+.developer-id-number {
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.full-stack {
+  background-color: #84cc16;
+  color: #ecfccb;
+  img {
+    background-color: #ecfccb;
+    box-shadow: 0 0 0px 5px #3f6212;
+  }
+  .developer-id-number {
+    background-color: #4d7c0f;
+  }
+  svg{
+    fill: #365314;
+    box-shadow: 0 0 2px 1px #365314;
+   }
+   svg:hover{
+     background-color: #ffffff70;
+   }
+}
+.back-end {
+  background-color: #3b82f6;
+  color: #dbeafe;
+
+  img {
+    background-color: #dbeafe;
+    box-shadow: 0 0 0px 5px #1e40af;
+  }
+  .developer-id-number {
+    background-color: #1d4ed8;
    
-
-    svg{
-        height: 24px;
-        fill:gray;
-    };
+  }
+  svg{
+   fill: #1e3a8a;
+   box-shadow: 0 0 2px 1px #1e3a8a;
+  }
+  svg:hover{
+    background-color: #ffffff70;
+  }
 }
 
-.developer header{  
-      text-align: center;     
-      padding: 1.5rem 0;
-      border-bottom: 1px solid var(--gray-2);;
-       
-        h2{
-         
-            font-size: var(--font-size-4);
-            letter-spacing: -1px;
-            font-weight: var(--font-weight-5);
-        }
-        p{
-            font-size:var(--font-size-1);
-            font-weight: var(--font-weight-3);
-           
-        }
-}
-.avatar{
-    max-height: 124px;
-   
-    img{        
-        aspect-ratio: 1/1;
-        width: 124px;
-        height: 124px;
-        border-radius: 50%;
-        padding-top:1rem;
-        border: 4px solid rgb(255, 255, 255);
-        background-color: var(--pink-2);
-        box-shadow: 0 0 0px 2px var(--pink-9);
-        
-    }
-}
-.full-stack{
-    background-color:#84cc16;
-    color:#ecfccb;
-    img{
-        background-color: #ecfccb;
-        box-shadow: 0 0 0px 5px #3f6212;
-    } 
-}
-.back-end{
-    background-color: #3b82f6;
-    color:#dbeafe;
-   
-    img{
-        background-color: #dbeafe; 
-        box-shadow: 0 0 0px 5px #1e40af;
-    } 
-}
-
-.front-end{
-    background-color:#ef4444;
-    color:#fee2e2;
-    img{
-        background-color: #fee2e2;
-        box-shadow: 0 0 0px 5px #991b1b;
-    }
-}
-
-
-
-.developer-details{
-   
-    padding:3.5rem 2.5rem;
-    color:var(--gray-9);
-    font-size: 13px;
-    font-weight: var(--font-weight-6);
-   
-    
-    span{
-        font-weight: var(--font-weight-3);
-    }
-    
-    li{
-        margin-bottom: var(--size-1);
-    }
+.front-end {
+  background-color: #ef4444;
+  color: #fee2e2;
+  img {
+    background-color: #fee2e2;
+    box-shadow: 0 0 0px 5px #991b1b;
+  }
+  .developer-id-number {
+    background-color: #b91c1c;
      
+  }
+  svg{
+    fill: #7f1d1d;
+    box-shadow: 0 0 2px 1px #7f1d1d;
+   }
+   svg:hover{
+     background-color: #ffffff70;
+   }
 }
- 
 
- 
- 
+.developer-details {
+  width: fit-content;
+  margin: 3rem auto;
+  font-size: 15px;
+  font-weight: 600;
+
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #374151;
+  }
+
+  li {
+    margin-bottom: 0.125rem;
+  }
+}
+
+

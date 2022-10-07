@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf .git .DS_Store node_modules",
-    "api": "npx json-server src/mock/db.json"
+    "api": "npx json-server --watch src/mock/db.json"
   },
   "devDependencies": {
     "concurrently": "^7.4.0",

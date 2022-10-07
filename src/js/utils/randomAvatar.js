@@ -1,5 +1,5 @@
 function randomAvatar(){
-    const avatarTypes = ['adventurer', 'open-peeps', 'big-smile', 'croodles-neutral', 'miniavs', 'croodles', 'personas']
+    const avatarTypes = ['adventurer', 'avataaars', 'big-ears', 'big-smile', 'micah', 'open-peeps', 'personas']
    
    return  avatarTypes[Math.floor(Math.random() * (avatarTypes.length - 1)) + 1]
 }

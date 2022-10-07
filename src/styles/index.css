@@ -569,42 +569,56 @@ table th {
 }
 
 .developer {
-  box-shadow: var(--shadow-4);
-  height: inherit;
+  box-shadow: var(--shadow-6);
+  border-radius: 6px;
+  width: 320px;
 }
 
-.remove-dev svg {
-  height: 24px;
-  fill: gray;
+.editor-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem;
+}
+.editor-controls svg {
+  border-radius: 50%;
+  padding: 0.3rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .developer header {
   text-align: center;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid var(--gray-2);
+  padding: 2rem 0 1rem;
 }
 .developer header h2 {
-  font-size: var(--font-size-4);
+  font-size: 28px;
   letter-spacing: -1px;
-  font-weight: var(--font-weight-5);
-}
-.developer header p {
-  font-size: var(--font-size-1);
-  font-weight: var(--font-weight-3);
+  font-weight: var(--font-weight-7);
+  margin-bottom: -2px;
+  margin-top: 1rem;
 }
 
-.avatar {
-  max-height: 124px;
-}
 .avatar img {
   aspect-ratio: 1/1;
-  width: 124px;
-  height: 124px;
+  width: 5.5rem;
+  height: 5.5rem;
   border-radius: 50%;
-  padding-top: 1rem;
   border: 4px solid rgb(255, 255, 255);
   background-color: var(--pink-2);
   box-shadow: 0 0 0px 2px var(--pink-9);
+}
+
+.developer-id-number {
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  width: fit-content;
+  margin: 1rem auto;
 }
 
 .full-stack {
@@ -615,6 +629,16 @@ table th {
   background-color: #ecfccb;
   box-shadow: 0 0 0px 5px #3f6212;
 }
+.full-stack .developer-id-number {
+  background-color: #4d7c0f;
+}
+.full-stack svg {
+  fill: #365314;
+  box-shadow: 0 0 2px 1px #365314;
+}
+.full-stack svg:hover {
+  background-color: rgba(255, 255, 255, 0.4392156863);
+}
 
 .back-end {
   background-color: #3b82f6;
@@ -623,6 +647,16 @@ table th {
 .back-end img {
   background-color: #dbeafe;
   box-shadow: 0 0 0px 5px #1e40af;
+}
+.back-end .developer-id-number {
+  background-color: #1d4ed8;
+}
+.back-end svg {
+  fill: #1e3a8a;
+  box-shadow: 0 0 2px 1px #1e3a8a;
+}
+.back-end svg:hover {
+  background-color: rgba(255, 255, 255, 0.4392156863);
 }
 
 .front-end {
@@ -633,18 +667,30 @@ table th {
   background-color: #fee2e2;
   box-shadow: 0 0 0px 5px #991b1b;
 }
+.front-end .developer-id-number {
+  background-color: #b91c1c;
+}
+.front-end svg {
+  fill: #7f1d1d;
+  box-shadow: 0 0 2px 1px #7f1d1d;
+}
+.front-end svg:hover {
+  background-color: rgba(255, 255, 255, 0.4392156863);
+}
 
 .developer-details {
-  padding: 3.5rem 2.5rem;
-  color: var(--gray-9);
-  font-size: 13px;
-  font-weight: var(--font-weight-6);
+  width: fit-content;
+  margin: 3rem auto;
+  font-size: 15px;
+  font-weight: 600;
 }
 .developer-details span {
-  font-weight: var(--font-weight-3);
+  font-size: 14px;
+  font-weight: 400;
+  color: #374151;
 }
 .developer-details li {
-  margin-bottom: var(--size-1);
+  margin-bottom: 0.125rem;
 }
 
 .query-filters {
@@ -694,15 +740,9 @@ table th {
   margin: 1rem 0;
 }
 
-.add-new-developer {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 5rem;
-}
-
 .new-developer-form {
-  width: 380px;
+  width: 480px;
+  margin: 0 auto;
 }
 
 .new-developer-form {
@@ -720,6 +760,9 @@ table th {
 }
 
 .control {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   margin-bottom: 1.25rem;
 }
 
@@ -728,50 +771,37 @@ table th {
   border: none;
   border-radius: 4px;
   box-shadow: 0 0 2px 1px rgba(249, 250, 251, 0.4274509804);
-  width: 100%;
   color: #f9fafb;
   padding: var(--size-1) var(--size-2);
 }
 
 .control label, .radio-control label, .what-type-of-developer h2 {
-  font-size: 13px;
+  font-size: 14px;
+  padding-left: 0.2rem;
+  padding-bottom: 0.25rem;
   color: #f9fafb;
 }
 
-.control button {
+.submit-new-developer-data {
+  text-align: center;
+}
+.submit-new-developer-data button {
+  border: none;
+  border-radius: 4px;
   background-color: #2563eb;
   color: #e5e5e5;
-  font-size: 1.25rem;
-  margin: 3rem 0 2rem;
-}
-
-.control button:last-of-type {
-  background-color: #38bdf8;
+  font-size: 1.125rem;
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .control input::placeholder {
   color: #9a9c9d;
-  font-size: 14px;
 }
 
-.double-control {
+.double-control, .double-control-single-line {
   display: flex;
-  gap: 1rem;
-}
-
-.double-control-single-line {
-  display: inline-flex;
-  gap: 2rem;
-}
-
-.uid:first-of-type {
-  width: 90px;
-  font-size: 14px;
-}
-
-.experience:first-of-type {
-  width: 46px;
-  font-size: 14px;
+  gap: 1.5rem;
 }
 
 .what-type-of-developer {
@@ -801,6 +831,28 @@ table th {
 
 .radio-control label {
   font-size: 12px;
+}
+
+.developer-footer {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.developer-footer button {
+  border-radius: 4px;
+  padding: 0.65rem 1rem;
+  border: none;
+}
+.developer-footer .full-stack-button {
+  background-color: #4d7c0f;
+  color: #ecfccb;
+}
+.developer-footer .back-end-button {
+  background-color: #1d4ed8;
+  color: #dbeafe;
+}
+.developer-footer .front-end-button {
+  background-color: #b91c1c;
+  color: #fee2e2;
 }
 
 /*# sourceMappingURL=index.css.map */

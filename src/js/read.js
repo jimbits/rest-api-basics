@@ -1,4 +1,4 @@
-import {getDeveloperById, getDevelopersByStatus} from './api/getRequests'
+import {getDeveloperById, getDevelopersByStatus, getDevelopersByType } from './api/getRequests'
 import { developerTemplate } from './templates/developerTemplate'
 import {renderMarkup} from './render/renderMarkup'
 // document.querySelectorAll('#queryOptions button').addEventListener('click', onSubmitQuery);
@@ -17,7 +17,7 @@ function onSubmitQuery(e){
     
     switch(e.currentTarget.id){
         case "getDeveloperById": processRequest(getDeveloperById, query);break;
-        case "getDevelopersByType": console.log("by type");break;
+        case "getDevelopersByType": processRequest(getDevelopersByType, query);break;
         case "getDevelopersByStatus": processRequest(getDevelopersByStatus, query); break;
         default: throw "No id on element found";
     }
@@ -25,17 +25,49 @@ function onSubmitQuery(e){
 }
 
 async function processRequest(getRequest, query){
-    formatResponse(await getRequest(query));
-     
+      const result =  await getRequest(query);
+      formatResponse(result)
 }
 
  
 
 async function formatResponse(developerData){
-    console.log(developerData)
+   
     const items = await renderMarkup(developerTemplate, developerData)
-    console.log(items)
+ 
     document.querySelector(`#developerList`).innerHTML = items
+    const controlButtons = document.querySelectorAll('.editor-controls li')
+   
+  
+ 
+    controlButtons.forEach(developer=>{
+       developer.addEventListener('click', onControlRequest)
+    })
+
+
+// deleteButton
+
+
+
+}
+
+async function onControlRequest(e){
+  
+    const developerId = e.currentTarget.dataset.id;
+    const controlClass = e.currentTarget.classList 
+    const developerData =  await getDeveloperById(developerId)
+
+     if(controlClass.value === 'delete-developer'){
+         navigateToPage(developerData, 'delete.html')
+     }
+    
+}
+
+
+
+function navigateToPage(developerData, url){
+    sessionStorage.setItem('developerData', JSON.stringify(developerData))
+     location.href = url
 }
 
 

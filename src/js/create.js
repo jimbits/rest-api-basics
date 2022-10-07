@@ -5,19 +5,23 @@ import {createTemplate} from './templates/createTemplate'
 import { randomAvatar } from './utils/randomAvatar';
 
 
+
+ 
 const developerForm = document.forms['createDeveloper']
 const processingRequest = false;
 
 developerForm.addEventListener('submit', onCreateDeveloper);
 const submitDeveloperFormButton = document.querySelector('#submitDeveloperForm')
+const idControl = document.querySelector('#id')
+ setIdControl()
 // create and add random id
 
 
 
 
-function onCreateDeveloper(e){
+async function onCreateDeveloper(e){
     e.preventDefault()
-    const uid = randomUID();
+    const id = randomUID();
     const experience = e.target.elements['experience'].value.trim();
     const firstName = e.target.elements['firstName'].value.trim();
     const lastName = e.target.elements['lastName'].value.trim();
@@ -28,7 +32,7 @@ function onCreateDeveloper(e){
     const avatar = `https://avatars.dicebear.com/api/${randomAvatar()}/${firstName}.svg`
 
     const developerObject ={
-        uid,
+        id,
         experience,
         firstName,
         lastName,
@@ -39,27 +43,31 @@ function onCreateDeveloper(e){
       
     }
     
-   console.log(developerObject)
-    formatResponse(developerObject)
+    const newDeveloper = await createDeveloper(developerObject);
+    //formatResponse(developerObject)
 
     
 
 }
 
 
-async function formatResponse(developerObject){
-    const newDeveloper = await createDeveloper(developerObject);
+// async function formatResponse(developerObject){
+//     const newDeveloper = await createDeveloper(developerObject);
    
-   const items = await renderMarkup(createTemplate, [newDeveloper]);
+//    const items = await renderMarkup(createTemplate, [newDeveloper]);
   
-   document.querySelector('#newDeveloper').removeChild(document.querySelector(`#livePreview`))
-   document.querySelector('#newDeveloper').insertAdjacentHTML('beforeend', items)
-}
+//    document.querySelector('#newDeveloper').removeChild(document.querySelector(`#livePreview`))
+//    document.querySelector('#newDeveloper').insertAdjacentHTML('beforeend', items)
+// }
 
 
 function randomUID(){
-    const randomUID = nanoid().substring(0,8)
+    return nanoid().substring(0,8)
     
+}
+
+function setIdControl(){
+    idControl.value = randomUID()
 }
 
 

@@ -74,12 +74,13 @@
         </figure></a
       >
      
-        <ul class="pages">
-          <li><a href="read.html">read</a></li>
-          <li><a href="create.html">create</a></li>
-          <li><a href="update.html">update</a></li>
-          <li><a href="delete.html">delete</a></li>
-        </ul>
+      <ul class="pages">
+        <li><a href="../index.html">developer list</a></li>
+        <li><a href="create.html">create</a></li>
+        <li><a href="read.html">read</a></li>
+        <li><a href="update.html">update</a></li>
+        <li><a href="delete.html">delete</a></li>
+      </ul>
       
     
         <ul class="github">
@@ -102,8 +103,6 @@
       <h1>Read</h1>
       <p>query data using query string</p>
     </header>
-
-
     <main class="developers">
      
       <section class="developer-results">
@@ -116,14 +115,13 @@
             
             <div class="query-control">
               <label for="dataQuery">Enter Query</label>
-              <input id="dataQuery" type="query" placeholder="enter query using example provided" value="211cdd18">
+              <input id="dataQuery" type="query" placeholder="search by id ex: 8fd4c2a4y"  value="true" >
             </div>
 
 
             <ul id="queryOptions" class="query-options">
               <li class="query-option"> 
-                <button id="getDeveloperById" class="query-button">get developer by id <span>example uid: 211cdd18</span></button>
-                
+                <button id="getDeveloperById" class="query-button">get developer by id <span>example id:8fd4c2a4</span></button>
                 </li>
               <li class="query-option"> 
                 <button id="getDevelopersByType" class="query-button">

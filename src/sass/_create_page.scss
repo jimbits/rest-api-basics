@@ -1,13 +1,11 @@
 .add-new-developer{
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap:5rem;
+    
  
 }
 
 .new-developer-form{
-    width:380px;
+    width:480px;
+    margin: 0 auto;
 }
 
  
@@ -31,59 +29,51 @@
 }
 // Form Control Defaults
 .control{
+    display:flex;
+    flex-direction: column;
+    flex:1;
     margin-bottom: 1.25rem;
 }
+ 
 .control input{
     background-color: #2d394a;
     border:none;
     border-radius: 4px;
     box-shadow: 0 0 2px 1px #f9fafb6d;
-    width:100%;
     color:#f9fafb;
     padding:var(--size-1) var(--size-2);
-  
 }
 .control label, .radio-control label, .what-type-of-developer h2 {
-    font-size: 13px;
+    font-size: 14px;
+    padding-left:0.2rem;
+    padding-bottom:0.25rem;
     color:#f9fafb;
 }
-.control button{
-    background-color:#2563eb;  
-    color:#e5e5e5;
-    font-size:1.25rem;
-    margin: 3rem 0 2rem;
+.submit-new-developer-data {
+    text-align: center;
+    button{
+        border:none;
+        border-radius: 4px;
+        background-color:#2563eb;  
+        color:#e5e5e5;
+        font-size:1.125rem;
+        margin: 1rem 0 2rem;
+        padding: 0.5rem 1.5rem;
+    }
 }
-.control button:last-of-type{
-    background-color: #38bdf8;
-}
+ 
 .control input::placeholder{
-    color:#9a9c9d;
-    font-size: 14px;
-     
+    color:#9a9c9d;  
 }
 
 // control layouts
-.double-control{
-    display:flex;
-    gap:1rem;
+.double-control, .double-control-single-line{
+    display:flex;  
+    gap:1.5rem;
 }
-.double-control-single-line{
-    display:inline-flex;
-    gap:2rem;
-}
-
-// uid and experience
-.uid:first-of-type{
-    width: 90px;
-    font-size:14px;
  
-}
-.experience:first-of-type{
-    width: 46px;
-    font-size:14px;
-   
-}
-
+ 
+ 
 // what type of developer
 .what-type-of-developer{
     margin: 2rem 0;

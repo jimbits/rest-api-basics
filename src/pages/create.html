@@ -73,12 +73,13 @@
         </figure></a
       >
      
-        <ul class="pages" >
-          <li   ><a href="read.html">read</a></li>
-          <li   ><a href="create.html">create</a></li>
-          <li  ><a href="delete.html">delete</a></li>
-          <li  ><a href="update.html">update</a></li>
-        </ul>
+      <ul class="pages">
+        <li><a href="../index.html">developer list</a></li>
+        <li><a href="create.html">create</a></li>
+        <li><a href="read.html">read</a></li>
+        <li><a href="update.html">update</a></li>
+        <li><a href="delete.html">delete</a></li>
+      </ul>
       
     
         <ul class="github" >
@@ -99,7 +100,7 @@
 
     <header class="page-header">
       <h1>CRUD OPERATIONS</h1>
-      <p>creating a new developer entry</p>
+      <p>create a new developer</p>
     </header>
 
     <aside id="newDeveloper" class="add-new-developer">
@@ -108,20 +109,20 @@
           <h3>Add Developer</h3>
         </header>
        <div class="double-control-single-line" >
-        <div class="control">
-          <label for="uid">UID:</label>
+        <div class="control developer-id">
+          <label for="id">ID:</label>
           <input
-            id="uid"
-            class="uid"
+            id="id"
+            class="id"
             type="text"
             placeholder="a122we18"
-            name="uid"
+            name="id"
             maxlength="8"
             tabindex="1"
           />
         </div>
-        <div class="control">
-          <label for="experience">Experience
+        <div class="control years-experience">
+          <label for="experience">Years of Experience  </label>
           <input
             id="experience"
             class="experience"
@@ -131,8 +132,8 @@
             maxlength="4"
             tabindex="2"
           />
-          years
-        </label>
+        
+      
         </div>
        </div>
 
@@ -237,7 +238,7 @@
           </div>
         </aside>
 
-        <div class="control">
+        <div class="control submit-new-developer-data">
           <button id="submitDeveloperForm" type="submit" tabindex="11" >Add New Developer</button>
         </div>
       </form>
@@ -246,7 +247,7 @@
 
      
         
-          <aside  id="livePreview"  class="developer live-preview">
+          <!-- <aside  id="livePreview"  class="developer live-preview">
             <header class="front-end">
               <div class="avatar">
                 <img
@@ -268,7 +269,7 @@
               <li>Experience: <span>7.25 years</span></li>
             </ul>
           
-          </aside>
+          </aside> -->
          
       
     </aside>

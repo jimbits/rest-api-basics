@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" type="icon" href="/favicon/favicon.ico" />
     <link rel="stylesheet" href="../styles/index.css" />
-    <script src="../js/delete.js" type="module"></script>
+    <script src="../js/update.js" type="module"></script>
   </head>
   <body>
     <nav class="appbar" >
@@ -102,11 +102,49 @@
       <h1>CRUD OPERATIONS</h1>
       <p>remove developer from db.json</p>
     </header>
-
-    <aside id="deleteDeveloper" class="add-new-developer">
+   
+    <main id="updateDeveloper" class="update-developer">
+      <form id="updateDeveloperForm" class="developer update-developer" data-id="${id}"> 
+      
+        <header class=" avatar full-stack">   
+       
+        <img
+       
+        src="https://avatars.dicebear.com/api/adventurer/kendallswindon.svg"
+        width="104"
+        height="104"
+        alt="user name"
+      />
+      
+            
+        <div class="edit-name">
+          <input class="" id="firstName" type="text" value="Jane"> <input id="lastName" type="text" value="Doe">
+        </div> 
+         
+         <div class="edit-speciality">
+          <input type="text" value="front end developer">
+         </div>
+         <div class="edit-developer-id">
+          <label for="editIdNumber"> id: <input id="editIdNumber" type="text" value="12345678"> </label>
+         </div>
+       
+        </header>
      
+     
+        <ul class="edit-developer-details">
+         
+           <li><label for="editEmail">Email: </label> <input type="text" value="jimmy@home.com"></li>
+           <li><label for="status">Status:</label> <input id="status" class="status" type="text" value="yes"></li>
+           <li><label for="phonenNumber">Phone Number:</label> <input id="phonenNumber" class="phone-number" type="text" value="780 455 8732"></li>
+           <li><label for="experience">Experience:</label> <input id="experience" class="years-experience" type="text" value="8"></li>
           
-     
-    </aside>
+      </ul>
+      <footer class="developer-footer">
+       
+       <button id="updateDeveloperButton"  data-id="${id}" class="full-stack-button update">Update Developer</button>
+        <a href="./../index.html" class="full-stack">Developer  Listings</a>
+      </footer>
+    </form>
+    </main>
   </body>
 </html>

@@ -1,7 +1,7 @@
  
 
 
-function deleteTemplate ({avatar, firstName, status, lastName, email, phoneNumber, experience, type, id, ...rest}){
+function updateTemplate ({avatar, firstName, status, lastName, email, phoneNumber, experience, type, id, ...rest}){
 
    return `
    <aside class="developer" data-id="${id}"> 
@@ -32,7 +32,9 @@ function deleteTemplate ({avatar, firstName, status, lastName, email, phoneNumbe
       <li>Experience: <span>${experience} years</span></li>
  </ul>
  <footer class="developer-footer">
-   <button id="deleteDeveloperButton" data-id="${id}" class="${developerType(type)}-button">Remove Developer</button>
+  
+  <button id="updateDeveloperButton"  data-id="${id}" class="${developerType(type)}-button update">Update Developer</button>
+   <a href="./../index.html" class="${developerType(type)}">Developer  Listings</a>
  </footer>
 </aside>
    `
@@ -55,6 +57,6 @@ function developerType(type){
 }
 
 
-export {deleteTemplate}
+export {updateTemplate}
 
  

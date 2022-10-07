@@ -1,0 +1,101 @@
+.developer{
+    width: 360px;
+    margin: 0 auto;
+}
+ .update-developer{
+    label{
+        font-size:1rem;
+        font-weight: 600;
+    }
+    input{
+        border:none;
+        border-radius: 3px;
+        font-size:28px;
+        width:50%;
+        background-color: #84cc16;
+        color: #ecfccb;
+        box-shadow: 0 0 2px 1px #4d7c0f;
+        text-align: center;
+      }
+}
+
+.edit-developer-details{
+    font-size:14px;
+    width:80%;
+    margin: 2rem auto 3rem;
+    display:flex;
+    flex-direction: column;
+  
+    input{
+        margin-left:0.5rem;
+        text-align: center;
+        font-size:14px;
+        background-color: transparent;
+        border:none;
+        box-shadow:none;
+        color: var(--gray-7);
+        border-bottom: 1px solid gray;
+        border-radius: 0;
+        padding-left: 0.25rem;
+        padding-bottom: 0;;
+    }
+
+}
+input.status{
+    width:30px;
+}
+input.phone-number{
+    width:124px;
+}
+input.years-experience{
+    width:24px;
+    
+}
+
+.edit-name{ 
+    display:flex;
+    flex:1;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.edit-speciality{
+  
+    input{
+        font-size:1rem;
+    }
+}
+.edit-developer-id{
+    background-color: #4d7c0f;
+    width: 40%;
+    margin: 0.5rem auto 0;
+    padding:0.125rem;
+    border-radius: 3px;
+    input{
+        font-size:14px;
+        background-color: transparent;
+       
+    }
+}
+
+.developer footer{
+         display:flex;
+         flex-direction: column;
+         align-items: center;
+         gap:1rem;;
+    
+    
+  
+    button{
+        padding:0.5rem 2rem;
+        width:60%;
+    }
+
+   a{
+    border-radius: 4px;
+    padding:0.65rem 1rem;
+    border:none;
+    width:60%;
+   }
+
+}

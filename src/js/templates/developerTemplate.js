@@ -4,8 +4,8 @@
 export function developerTemplate ({avatar, firstName, status, lastName, email, phoneNumber, experience, type, id, ...rest}){
 
    return `
-   <li  class="developer" data-id="${id}">
-   <aside> 
+    
+   <aside id="developer" class="developer" data-id="${id}"> 
       
       <header class=" avatar ${developerType(type)}">   
      
@@ -59,8 +59,8 @@ export function developerTemplate ({avatar, firstName, status, lastName, email, 
          <li>Phone: <span>${phoneNumber}</span></li>
          <li>Experience: <span>${experience} years</span></li>
     </ul>
-
-   </aside>
+</aside>
+ 
    `
 
 }

@@ -1,4 +1,4 @@
-import {deleteTemplate} from './templates/deleteTemplate'
+import {updateTemplate} from './templates/updateTemplate'
 import { deleteRequest } from './api/deleteRequest'
 import {renderMarkup} from './render/renderMarkup'
 const removeDeveloper = document.querySelector('#deleteDeveloper')
@@ -25,16 +25,16 @@ const removeDeveloper = document.querySelector('#deleteDeveloper')
 
  async function displayDeveloper(){
     const developerData = JSON.parse(sessionStorage.getItem('developerData'))
-    
+    console.log(document.querySelector('main'))
   
      if(developerData){
-      document.querySelector(`#deleteDeveloper`).innerHTML = await renderMarkup( deleteTemplate, developerData,);
+      //document.querySelector(`#updateDeveloper`).innerHTML = await renderMarkup( updateTemplate, developerData,);
      }
 
-     document.querySelector('#deleteDeveloperButton').addEventListener('click', onRemoveDeveloper)
+    // document.querySelector('#deleteDeveloperButton').addEventListener('click', onRemoveDeveloper)
  }
  function addReturnButton(){
-    const a = `<a href="../index.html">go back to the index page</a>`
-    document.querySelector('#deleteDeveloper').innerHTML = a
+    // const a = `<a href="../index.html">go back to the index page</a>`
+    // document.querySelector('#deleteDeveloper').innerHTML = a
  }
  pageInit()

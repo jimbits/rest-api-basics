@@ -1,16 +1,9 @@
-.developer-list {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
+
 .developer {
   box-shadow: var(--shadow-6);
   border-radius: 6px;
-  width: 320px;
-
+  background-color: #ffffff;
+  padding-bottom:3rem;
 }
 .editor-controls {
   display: flex;
@@ -68,7 +61,7 @@
   margin: 1rem auto;
 }
 
-.full-stack {
+.full-stack{
   background-color: #84cc16;
   color: #ecfccb;
   img {
@@ -77,7 +70,9 @@
   }
   .developer-id-number {
     background-color: #4d7c0f;
+   
   }
+ 
   svg{
     fill: #365314;
     box-shadow: 0 0 2px 1px #365314;

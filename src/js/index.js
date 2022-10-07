@@ -7,9 +7,11 @@ import {configListeners} from './utils/configListeners'
     const developerData = await getAllDevelopers();
   
      if(developerData){
-      document.querySelector(`#developerList`).innerHTML = await renderMarkup( developerTemplate, developerData,)
-      // add listeners to the controls 
-      configListeners(document.querySelectorAll('#developerDataControls'), {action:"add", type:"edit-delete", path:"pages"})
+      document.querySelector('#developerList').innerHTML = await renderMarkup( developerTemplate, developerData)
+      // select the ul#developerDataControls and add listeners 
+      // to both the edit and delete buttons for each developer
+      //
+      configListeners(document.querySelectorAll('#developerDataControls'), {action:"add", path:"pages"})
     }
  }
 

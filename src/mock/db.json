@@ -1,28 +1,6 @@
 {
   "developers": [
     {
-      "id": "5b35e957",
-      "firstName": "Pablo",
-      "lastName": "Strugnell",
-      "email": "pstrugnell0@tamu.edu",
-      "avatar": "https://avatars.dicebear.com/api/avataaars/pablostrugnell.svg",
-      "phoneNumber": "489-792-8962",
-      "experience": 1,
-      "type": "full stack developer",
-      "status": true
-    },
-    {
-      "id": "1b75c8b7",
-      "firstName": "Darryl",
-      "lastName": "Blackey",
-      "email": "dblackey1@reddit.com",
-      "avatar": "https://avatars.dicebear.com/api/micah/darrylblackey.svg",
-      "phoneNumber": "660-994-1618",
-      "experience": 6,
-      "type": "back end developer",
-      "status": false
-    },
-    {
       "id": "8fd4c2a4",
       "firstName": "Tammie",
       "lastName": "Klimek",
@@ -47,9 +25,9 @@
     {
       "id": "2eb24f5a",
       "firstName": "Wendie",
-      "lastName": "Donnersberg",
+      "lastName": "Donners",
       "email": "wdonnersberg4@deliciousdays.com",
-      "avatar": "https://avatars.dicebear.com/api/personas/wendiedonnersberg.svg",
+      "avatar": "https://avatars.dicebear.com/api/personas/wendiedonners.svg",
       "phoneNumber": "827-880-3938",
       "experience": 3,
       "type": "front end developer",
@@ -131,36 +109,6 @@
       "experience": 8,
       "type": "front end developer",
       "status": true
-    },
-    {
-      "id": "jUmfq1w3",
-      "experience": "3.3",
-      "firstName": "jane",
-      "lastName": "doe",
-      "email": "jane@home.com",
-      "phoneNumber": "451 258 3256",
-      "type": "front end developer",
-      "avatar": "https://avatars.dicebear.com/api/croodles/jane.svg"
-    },
-    {
-      "id": "ZRviY8m4",
-      "experience": "3.3",
-      "firstName": "jane",
-      "lastName": "doe",
-      "email": "jane@home.com",
-      "phoneNumber": "451 258 3256",
-      "type": "front end developer",
-      "avatar": "https://avatars.dicebear.com/api/croodles/jane.svg"
-    },
-    {
-      "id": "qZWsyXaG",
-      "experience": "",
-      "firstName": "jane",
-      "lastName": "doer",
-      "email": "holy@home.com",
-      "phoneNumber": "dfjasljdflas",
-      "type": "front end developer",
-      "avatar": "https://avatars.dicebear.com/api/croodles-neutral/jane.svg"
     }
   ]
 }

@@ -4,6 +4,8 @@
 @use 'sidebar';
 @use 'results';
 @use 'developer';
-@use 'read_page';
-@use 'create_page';
-@use 'delete_page';
+@use 'pages/index';
+@use 'pages/read';
+@use 'pages/create';
+@use 'pages/delete';
+@use 'pages/update';

@@ -559,6 +559,14 @@ table th {
   font-size: var(--font-size-4);
 }
 
+.developer-list {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
 .developer {
   box-shadow: var(--shadow-6);
   border-radius: 6px;
@@ -683,14 +691,6 @@ table th {
 }
 .developer-details li {
   margin-bottom: 0.125rem;
-}
-
-.developer-list {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
 }
 
 .query-filters {
@@ -833,8 +833,8 @@ table th {
   font-size: 12px;
 }
 
-.developer {
-  width: 360px;
+aside.developer-delete {
+  width: 380px;
   margin: 0 auto;
 }
 
@@ -859,9 +859,16 @@ table th {
   color: #fee2e2;
 }
 
-.developer {
-  width: 360px;
+.developer-update {
+  width: 400px;
   margin: 0 auto;
+}
+.developer-update img {
+  margin-bottom: 1rem;
+}
+
+.developer-update header {
+  padding: 2rem 1.5rem 1rem;
 }
 
 .update-developer label {
@@ -871,7 +878,7 @@ table th {
 .update-developer input {
   border: none;
   border-radius: 3px;
-  font-size: 28px;
+  font-size: 26px;
   width: 50%;
   background-color: #84cc16;
   color: #ecfccb;
@@ -917,8 +924,12 @@ input.years-experience {
   flex: 1;
   gap: 1rem;
   padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
+.edit-speciality {
+  margin-bottom: 1.5rem;
+}
 .edit-speciality input {
   font-size: 1rem;
 }
@@ -926,7 +937,7 @@ input.years-experience {
 .edit-developer-id {
   background-color: #4d7c0f;
   width: 40%;
-  margin: 0.5rem auto 0;
+  margin: 0 auto 1rem;
   padding: 0.125rem;
   border-radius: 3px;
 }

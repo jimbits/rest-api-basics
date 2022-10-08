@@ -1,9 +1,18 @@
 
+.developer-list {
+  width:1200px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1rem;
+}
+
 .developer {
   box-shadow: var(--shadow-6);
   border-radius: 6px;
   background-color: #ffffff;
   padding-bottom:3rem;
+ 
 }
 .editor-controls {
   display: flex;

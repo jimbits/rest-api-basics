@@ -1,6 +1,13 @@
-.developer{
-    width: 360px;
+.developer-update{
+    width: 400px;
     margin: 0 auto;
+    img{
+        margin-bottom:1rem;
+    }
+}
+
+.developer-update header{
+    padding: 2rem 1.5rem 1rem;
 }
  .update-developer{
     label{
@@ -10,7 +17,7 @@
     input{
         border:none;
         border-radius: 3px;
-        font-size:28px;
+        font-size:26px;
         width:50%;
         background-color: #84cc16;
         color: #ecfccb;
@@ -37,7 +44,7 @@
         border-bottom: 1px solid gray;
         border-radius: 0;
         padding-left: 0.25rem;
-        padding-bottom: 0;;
+        padding-bottom: 0;
     }
 
 }
@@ -57,10 +64,11 @@ input.years-experience{
     flex:1;
     gap: 1rem;
     padding: 0.5rem;
+    margin-bottom:1rem;
 }
 
 .edit-speciality{
-  
+    margin-bottom:1.5rem;
     input{
         font-size:1rem;
     }
@@ -68,7 +76,7 @@ input.years-experience{
 .edit-developer-id{
     background-color: #4d7c0f;
     width: 40%;
-    margin: 0.5rem auto 0;
+    margin: 0 auto 1rem;
     padding:0.125rem;
     border-radius: 3px;
     input{

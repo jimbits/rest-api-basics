@@ -4,7 +4,7 @@
 function deleteTemplate ({avatar, firstName, status, lastName, email, phoneNumber, experience, type, id, ...rest}){
 
    return `
-   <aside class="developer" data-id="${id}"> 
+   <aside class="developer  developer-delete" data-id="${id}"> 
       
    <header class=" avatar ${developerType(type)}">   
   
@@ -33,7 +33,8 @@ function deleteTemplate ({avatar, firstName, status, lastName, email, phoneNumbe
  </ul>
  <footer class="developer-footer">
    <button id="deleteDeveloperButton" data-id="${id}" class="${developerType(type)}-button">Remove Developer</button>
- </footer>
+   <a href="./../index.html" class="${developerType(type)}">Developer  Listings</a>
+   </footer>
 </aside>
    `
 

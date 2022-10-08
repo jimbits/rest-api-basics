@@ -1,114 +1,123 @@
 {
-  "developers": [
-    {
-      "id": "8fd4c2a4",
-      "firstName": "Tammie",
-      "lastName": "Klimek",
-      "email": "tklimek2@friendfeed.com",
-      "avatar": "https://avatars.dicebear.com/api/open-peeps/tammieklimek.svg",
-      "phoneNumber": "794-114-0001",
-      "experience": 7,
-      "type": "full stack developer",
-      "status": false
-    },
-    {
-      "id": "2e82d969",
-      "firstName": "Jaquelin",
-      "lastName": "Sam",
-      "email": "jsam3@fema.gov",
-      "avatar": "https://avatars.dicebear.com/api/adventurer/jaquelinsam.svg",
-      "phoneNumber": "790-460-1001",
-      "experience": 8,
-      "type": "back end developer",
-      "status": true
-    },
-    {
-      "id": "2eb24f5a",
-      "firstName": "Wendie",
-      "lastName": "Donners",
-      "email": "wdonnersberg4@deliciousdays.com",
-      "avatar": "https://avatars.dicebear.com/api/personas/wendiedonners.svg",
-      "phoneNumber": "827-880-3938",
-      "experience": 3,
-      "type": "front end developer",
-      "status": false
-    },
-    {
-      "id": "61008124",
-      "firstName": "Lilla",
-      "lastName": "Turney",
-      "email": "lturney5@state.gov",
-      "avatar": "https://avatars.dicebear.com/api/big-ears/lillaturney.svg",
-      "phoneNumber": "946-689-0142",
-      "experience": 6,
-      "type": "back end developer",
-      "status": false
-    },
-    {
-      "id": "f673607d",
-      "firstName": "Trisha",
-      "lastName": "Berling",
-      "email": "tberling6@gravatar.com",
-      "avatar": "https://avatars.dicebear.com/api/big-ears/trishaberling.svg",
-      "phoneNumber": "277-525-7310",
-      "experience": 6,
-      "type": "back end developer",
-      "status": false
-    },
-    {
-      "id": "8138a67f",
-      "firstName": "Bernhard",
-      "lastName": "Buxsy",
-      "email": "bbuxsy7@purevolume.com",
-      "avatar": "https://avatars.dicebear.com/api/avataaars/bernhardbuxsy.svg",
-      "phoneNumber": "309-227-4481",
-      "experience": 7,
-      "type": "front end developer",
-      "status": false
-    },
-    {
-      "id": "84c2b59a",
-      "firstName": "Marylou",
-      "lastName": "Mattsson",
-      "email": "mmattsson8@opera.com",
-      "avatar": "https://avatars.dicebear.com/api/open-peeps/maryloumattsson.svg",
-      "phoneNumber": "328-102-2868",
-      "experience": 1,
-      "type": "back end developer",
-      "status": false
-    },
-    {
-      "id": "65baba0d",
-      "firstName": "Mordecai",
-      "lastName": "Chevers",
-      "email": "mchevers9@paypal.com",
-      "avatar": "https://avatars.dicebear.com/api/big-smile/mordecaichevers.svg",
-      "phoneNumber": "346-634-5338",
-      "experience": 1,
-      "type": "back end developer",
-      "status": true
-    },
-    {
-      "id": "e21b4b7a",
-      "firstName": "Zarla",
-      "lastName": "Lickess",
-      "email": "zlickessa@newyorker.com",
-      "avatar": "https://avatars.dicebear.com/api/adventurer/zarlalickess.svg",
-      "phoneNumber": "709-492-4705",
-      "experience": 5,
-      "type": "back end developer",
-      "status": true
-    },
-    {
-      "id": "aa0552c9",
-      "firstName": "Kendall",
-      "lastName": "Swindon",
-      "email": "kswindonb@seesaa.net",
-      "avatar": "https://avatars.dicebear.com/api/adventurer/kendallswindon.svg",
-      "phoneNumber": "760-812-9793",
-      "experience": 8,
-      "type": "front end developer",
-      "status": true
-    }
-  ]
+  "developers":[{
+    "id": "5b35e957",
+    "firstName": "Pablo",
+    "lastName": "Strugnell",
+    "email": "pstrugnell0@tamu.edu",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/pablostrugnell.svg",
+    "phoneNumber": "489-792-8962",
+    "experience": 1,
+    "type": "full stack developer",
+    "status": true
+  }, {
+    "id": "1b75c8b7",
+    "firstName": "Darryl",
+    "lastName": "Blackey",
+    "email": "dblackey1@reddit.com",
+    "avatar": "https://avatars.dicebear.com/api/micah/darrylblackey.svg",
+    "phoneNumber": "660-994-1618",
+    "experience": 6,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "8fd4c2a4",
+    "firstName": "Tammie",
+    "lastName": "Klimek",
+    "email": "tklimek2@friendfeed.com",
+    "avatar": "https://avatars.dicebear.com/api/open-peeps/tammieklimek.svg",
+    "phoneNumber": "794-114-0001",
+    "experience": 7,
+    "type": "full stack developer",
+    "status": false
+  }, {
+    "id": "2e82d969",
+    "firstName": "Jaquelin",
+    "lastName": "Sam",
+    "email": "jsam3@fema.gov",
+    "avatar": "https://avatars.dicebear.com/api/adventurer/jaquelinsam.svg",
+    "phoneNumber": "790-460-1001",
+    "experience": 8,
+    "type": "back end developer",
+    "status": true
+  }, {
+    "id": "2eb24f5a",
+    "firstName": "Wendie",
+    "lastName": "Donners",
+    "email": "wdonners@godord.com",
+    "avatar": "https://avatars.dicebear.com/api/personas/wendiedonners.svg",
+    "phoneNumber": "827-880-3938",
+    "experience": 3,
+    "type": "front end developer",
+    "status": false
+  }, {
+    "id": "61008124",
+    "firstName": "Lilla",
+    "lastName": "Turney",
+    "email": "lturney5@state.gov",
+    "avatar": "https://avatars.dicebear.com/api/big-ears/lillaturney.svg",
+    "phoneNumber": "946-689-0142",
+    "experience": 6,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "f673607d",
+    "firstName": "Trisha",
+    "lastName": "Berling",
+    "email": "tberling6@gravatar.com",
+    "avatar": "https://avatars.dicebear.com/api/big-ears/trishaberling.svg",
+    "phoneNumber": "277-525-7310",
+    "experience": 6,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "8138a67f",
+    "firstName": "Bernhard",
+    "lastName": "Buxsy",
+    "email": "bbuxsy7@purevolume.com",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/bernhardbuxsy.svg",
+    "phoneNumber": "309-227-4481",
+    "experience": 7,
+    "type": "front end developer",
+    "status": false
+  }, {
+    "id": "84c2b59a",
+    "firstName": "Marylou",
+    "lastName": "Mattsson",
+    "email": "mmattsson8@opera.com",
+    "avatar": "https://avatars.dicebear.com/api/open-peeps/maryloumattsson.svg",
+    "phoneNumber": "328-102-2868",
+    "experience": 1,
+    "type": "back end developer",
+    "status": false
+  }, {
+    "id": "65baba0d",
+    "firstName": "Mordecai",
+    "lastName": "Chevers",
+    "email": "mchevers9@paypal.com",
+    "avatar": "https://avatars.dicebear.com/api/big-smile/mordecaichevers.svg",
+    "phoneNumber": "346-634-5338",
+    "experience": 1,
+    "type": "back end developer",
+    "status": true
+  }, {
+    "id": "e21b4b7a",
+    "firstName": "Zarla",
+    "lastName": "Lickess",
+    "email": "zlickessa@newyorker.com",
+    "avatar": "https://avatars.dicebear.com/api/adventurer/zarlalickess.svg",
+    "phoneNumber": "709-492-4705",
+    "experience": 5,
+    "type": "back end developer",
+    "status": true
+  }, {
+    "id": "aa0552c9",
+    "firstName": "Kendall",
+    "lastName": "Swindon",
+    "email": "kswindonb@seesaa.net",
+    "avatar": "https://avatars.dicebear.com/api/adventurer/kendallswindon.svg",
+    "phoneNumber": "760-812-9793",
+    "experience": 8,
+    "type": "front end developer",
+    "status": true
+  }]
 }

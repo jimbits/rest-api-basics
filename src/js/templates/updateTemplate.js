@@ -4,7 +4,7 @@
 function updateTemplate ({avatar, firstName, status, lastName, email, phoneNumber, experience, type, id, ...rest}){
 
    return `
-   <aside class="developer" data-id="${id}"> 
+   <aside class="developer" data-id="${id} developer-update"> 
       
    <header class=" avatar ${developerType(type)}">   
   
